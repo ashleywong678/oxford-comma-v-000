@@ -7,12 +7,12 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join( " and ")
   
-  elsif array.length == 3
-    new_array = array.join(", ")
-      puts new_array
-    new_array.insert(-10, "and ")
-      puts new_array
-    new_array
+  # elsif array.length == 3
+  #   new_array = array.join(", ")
+  #     puts new_array
+  #   new_array.insert(-10, "and ")
+  #     puts new_array
+  #   new_array
     
   elsif array.length > 3
     array[-1].insert(0, "and ")
